@@ -67,6 +67,12 @@ figure {
   margin: 0;
 }
 
+figure.logo {
+  display: grid;
+  justify-items: center;
+  padding-top: 10px;
+}
+
 .header ol {
   display: flex;
   height: inherit;
