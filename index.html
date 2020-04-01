@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Plataforma México Vs Covid-19</title>
+    <link rel="icon" type="image/png" href="images/Isotipo.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <img
+            src="images/iconpage.png"
+            width="60"
+            height="60"
+            alt="Logo Plataforma-covid"
+          />
+        </figure>
+        <nav class="menu">
+          <ol>
+            <!--<li>
+              <a class="link" href="#Algo">Algo</a>
+            //</li>
+            <li>
+              <a class="link" href="#quienessomos">¿Quienes somos?</a>
+            </li>-->
+            <li>
+              <a>Plataforma México Vs Covid-19</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+
+    <section id="project" class="project">
+      <figure class="project-imageContainer"></figure>
+      <div class="container">
+        <article class="project">
+          <figure class="project-imageContainer">
+            <img class="project-image" src="images/hero.png" alt="Logo " />
+          </figure>
+        </article>
+      </div>
+    </section>
+    <section id="project" class="project">
+      <figure class="project-imageContainer"></figure>
+      <div class="container">
+        <article class="project">
+          <figure class="project-imageContainer">
+    
+          <figure class="event-imageContainer">
+            <img
+              class="event-image"
+              src="images/card1.png"
+              alt="Card1"
+            />
+          </figure>
+        </article>
+      </div>
+    </section>
+    <section id="project" class="project">
+      <figure class="project-imageContainer"></figure>
+      <div class="container">
+        <article class="project">
+          <figure class="project-imageContainer">
+          <figure class="event-imageContainer">
+            <img
+              class="event-image"
+              src="images/card2.png" 
+              alt="Card2"
+            />
+          </figure>
+        </article>
+      </div>
+    </section>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="social">
+          <a
+            href="https://www.facebook.com/PlataformaMexicoCovid"
+            class="social-link facebook"
+          ></a>
+          <a
+            href="https://twitter.com/MexicoCovid191"
+            class="social-link twitter"
+          ></a>
+          <!--
+          <a
+            href="https://www.LinkedIn.com/in/"
+            class="social-link linkedIn"
+          ></a>-->
+        </div>
+        <div>
+          <p>
+            Plataforma México Vs Covid-19 Todos los derechos reservados.
+
+            <!--<br />Diseñado con 💖 por
+            <a href="https://taniasosa.com">Tania Sosa</a>-->
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // console.log('Hola mundo! es mi primera linea en JS');
+      const ipad = window.matchMedia("screen and (max-width: 767px)");
+      const menu = document.querySelector(".menu");
+      // console.log(menu);
+      const burgerButton = document.querySelector("#burger-menu");
+      // console.log(burgerButton);
+      ipad.addListener(validation);
+      function validation(event) {
+        if (event.matches) {
+          burgerButton.addEventListener("click", hideShow);
+        } else {
+          burgerButton.removeEventListener("click", hideShow);
+        }
+      }
+      validation(ipad);
+      function hideShow() {
+        if (menu.classList.contains("is-active")) {
+          menu.classList.remove("is-active");
+        } else {
+          menu.classList.add("is-active");
+        }
+      }
+    </script>
+  </body>
+</html>
