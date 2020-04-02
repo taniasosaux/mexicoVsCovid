@@ -89,7 +89,7 @@ figure.logo {
   color: white;
   text-decoration: none;
   padding: 0 10px;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .menu {
@@ -97,7 +97,7 @@ figure.logo {
 }
 
 .event-imageContainer {
-  max-width: 700px;
+  max-width: 500px;
   flex: 1;
   margin: 0 auto;
   display: inherit;
