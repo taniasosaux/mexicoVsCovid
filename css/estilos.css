@@ -97,7 +97,7 @@ figure.logo {
 }
 
 .event-imageContainer {
-  max-width: 500px;
+  max-width: 700px;
   flex: 1;
   margin: 0 auto;
   display: inherit;
@@ -131,8 +131,8 @@ figure.logo {
   background-image: url("../images/twitter.svg");
 }
 
-.social-link.linkedIn {
-  background-image: url("../images/instagram.svg");
+.social-link.Instagram {
+  background-image: url("../images/instagram.png");
 }
 
 .container {
