@@ -48,37 +48,36 @@
         </nav>
       </div>
     </header>
-
-    <section id="project" class="project">
-      <figure class="project-imageContainer"></figure>
+    <section id="project-hero" class="project">
+      <figure class="project-imageContainer">
       <div class="container">
         <article class="project">
-          <figure class="project-imageContainer">
-            <figure class="event-imageContainer">
+          <figure class="event-imageBanner">
+    
               <a title="bannerbeta"
-               href="https://beta.mexicovscovid191.mx"><img
-               src="images/bannerbeta.png" 
+               href="https://beta.mexicovscovid191.mx">
+               <img src="images/bannerbeta.png" 
                alt="Imagen Banner version beta"/></a>
             </figure>
-          </figure>
-        </article>
+         </article>
       </div>
     </section>
     <section id="project" class="project">
-      <figure class="project-imageContainer"></figure>
       <div class="container">
+        <div class="left">
         <article class="project">
           <figure class="project-imageContainer">
           <figure class="event-imageContainer">
             <a title="ayuda"
              href="https://docs.google.com/forms/d/1hSYwpj-Pscy9nWKckSyG1owKzVXsxTR-NkLq5S4dgdk/viewform"><img
              src="images/card1.png" 
-             alt="Card2"/></a>
+             alt="Card1"/></a>
           </figure>
         </article>
       </div>
-      <figure class="project-imageContainer"></figure>
+    </div>
       <div class="container">
+        <div class="right">
         <article class="project">
           <figure class="project-imageContainer">
           <figure class="event-imageContainer">
@@ -89,21 +88,21 @@
           </figure>
         </article>
       </div>
-      <figure class="project-imageContainer"></figure>
-      <div class="container">
+    </div>
+     <div class="container">
+        <div class="center">
         <article class="project">
           <figure class="project-imageContainer">
           <figure class="event-imageContainer">
             <a title="voluntarios"
              href="https://docs.google.com/forms/d/e/1FAIpQLSc0wvAPaFfjZbWefnCU9IAIEBtPrjEoZWkMc3ksiPmgw3v3PA/viewform"><img
              src="images/card3.png" 
-             alt="Card2"/></a>
+             alt="Card3"/></a>
           </figure>
         </article>
       </div>
-    </section>
-      </div>
-    </section>
+  </div>
+  </section>
     <footer class="footer">
       <div class="container">
         <div class="social">
@@ -124,9 +123,6 @@
           <p>
             Plataforma México Vs Covid-19 <Br/> 
             <a href="pdp.html">Politica de privacidad</a>
-            
-             
-
             <!--<br />Diseñado con 💖 por
             <a href="https://taniasosa.com">Tania Sosa</a>-->
           </p>
@@ -134,12 +130,9 @@
       </div>
     </footer>
     <script>
-      // console.log('Hola mundo! es mi primera linea en JS');
       const ipad = window.matchMedia("screen and (max-width: 767px)");
       const menu = document.querySelector(".menu");
-      // console.log(menu);
       const burgerButton = document.querySelector("#burger-menu");
-      // console.log(burgerButton);
       ipad.addListener(validation);
       function validation(event) {
         if (event.matches) {
