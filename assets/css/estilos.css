@@ -13,11 +13,6 @@ body {
   float: center;
 }
 
-p {
-  margin: 20px;
-  text-align: justify;
-}
-
 h1 {
   font-size: 40px;
   line-height: 1em;
@@ -39,7 +34,7 @@ h2 {
 }
 
 .project {
-  padding: 1px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,12 +46,12 @@ h2 {
   display: block;
 }
 
-.project-banner {
-  max-width: 500%;
-}
-
 .project-imageContainer img {
   max-width: 100%;
+}
+
+.project-imageContainerHero img {
+  max-width: 400%;
 }
 
 .header {
@@ -83,7 +78,6 @@ figure {
 figure.logo {
   display: grid;
   justify-items: center;
-  padding-top: 10px;
 }
 
 .header ol {
@@ -110,7 +104,7 @@ figure.logo {
 }
 
 .event-imageContainer {
-  max-width: 250px;
+  max-width: 280px;
   flex: 1;
   margin: 0 auto;
   display: inherit;
@@ -164,6 +158,17 @@ figure.logo {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.container-project {
+  max-width: 1000px;
+  flex: 1;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: inherit;
   flex-wrap: inherit;
 }
